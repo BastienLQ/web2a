@@ -1,0 +1,25 @@
+{
+  "name": "web2a",
+  "version": "1.1.0",
+  "description": "Webster's Second Internations appendix english wordlist",
+  "keywords": [
+    "web2a"
+  ],
+  "homepage": "https://github.com/BastienLQ/web2a",
+  "bugs": {
+    "url": "https://github.com/BastienLQ/web2a/issues"
+  },
+  "main": "web2a.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "prepublish": "./generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BastienLQ/web2a.git"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "license": "FDL-1.3"
+}
